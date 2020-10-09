@@ -1,0 +1,64 @@
+/*
+Theme Name: Roofme
+Theme URI: http://wordpress.org/themes/roofme
+Author: 2002AK-WDP
+Author URI: http://wordpress.org/
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: weebiz
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+.top_search_icon {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:active {
+    color: #0064C9!important;
+}
+
+
+.navbar-light .navbar-nav .current-menu-item .nav-link  {
+    color: #0064C9!important;
+}
+
+.form-control:focus {
+    border-color: #0064C9;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    min-height:100vh;
+}
+
+.wrapper .body {
+    flex: 1 0 auto;
+}
+
+.light-footer {
+    background-image: linear-gradient(145deg, #fff, #ebebeb);
+}
+
+a {
+    color: #0064C9;
+}
+
+.navbar-light .navbar-toggler {
+    color: #0064C9 !important;
+}
