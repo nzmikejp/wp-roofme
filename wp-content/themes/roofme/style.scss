@@ -13,87 +13,77 @@ Text Domain: weebiz
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+
 .top_search_icon {
-  top: 50%;
-  -webkit-transform: translate(-1.5em, -50%);
-          transform: translate(-1.5em, -50%);
-  right: 0;
+    top: 50%;
+    transform: translate(-1.5em, -50%);
+    right: 0;
 }
 
 .bg-black {
-  background-color: #000;
-  -webkit-box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
-  position: relative;
-  z-index: 50;
+    background-color: #000;
+    box-shadow: 0 0.5em 1em rgba(0,0,0,0.2);
+    position: relative;
+    z-index: 50;
 }
+
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:active {
-  color: #0064C9 !important;
+    color: #0064C9!important;
 }
 
-.navbar-light .navbar-nav .current-menu-item .nav-link {
-  color: #0064C9 !important;
+
+.navbar-light .navbar-nav .current-menu-item .nav-link  {
+    color: #0064C9!important;
 }
 
 .form-control:focus {
-  border-color: #0064C9;
+    border-color: #0064C9;
 }
 
 .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding-bottom: 0;
-  min-height: 100vh;
-  overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    min-height:100vh;
+    overflow-x: hidden;
+
+    .body {
+        flex: 1 0 auto;
+    }
 }
 
-.wrapper .body {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
-}
 
 .light-footer {
-  background-image: linear-gradient(145deg, #fff, #ebebeb);
+    background-image: linear-gradient(145deg, #fff, #ebebeb);
 }
 
 a {
-  color: #0064C9;
+    color: #0064C9;
 }
 
 .navbar-light .navbar-toggler {
-  color: #0064C9 !important;
+    color: #0064C9 !important;
 }
 
 .top_search_con {
-  position: relative;
-  margin: auto;
+    position: relative;
+    margin: auto;
 }
 
 .nav-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-wrapper .navbar-toggler {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+    align-self: center;
 }
 
 button:focus {
-  outline: none;
+    outline: none;
 }
-/*# sourceMappingURL=style.css.map */
+
